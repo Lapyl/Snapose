@@ -1,0 +1,2 @@
+cd C:\Programs\openpose
+bin\OpenPoseDemo.exe --video examples\media\video.avi --write_json out\
