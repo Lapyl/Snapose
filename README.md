@@ -1,22 +1,25 @@
 ## Project
 
-- Name: Snapose
-- Description: Walking-Pose KeyPoints Detection App useful for Gait Analysis for Physical Therapy
-- Authors: Lalit A Patel and Laxmi L Patel
-- Submitted to: Windows on Snapdragon AI Hackathon
+Snapose is a Walking-Pose KeyPoints Detection App, developed by Lalit A Patel and Laxmi L Patel, and submitted to the Windows on Snapdragon AI Hackathon 2025.
+
+This app can be useful for Gait Analysis for Physical Therapy.
 
 ## Files on this Repository
 
 - OpenPoseDemoExeCode.txt : One-line code of OpenPose to detect key points of the body or bodies in a video of a single person or multiple persons
-- JsonAnalysis.ipynb : Python based analysis and animation of key points of bodies in an example video of multiple persons
-- JsonAnalysis.html : Html version of JsonAnalysis.ipynb
+- JsonAnalysis_MultiFace.ipynb : Analysis and animation of key points of bodies in an example video of multiple persons walking
+- JsonAnalysis_LaxmiFace.ipynb : Analysis and animation of key points in the video of Laxmi walking while facing the camera 
+- JsonAnalysis_LaxmiSide.ipynb : Analysis and animation of key points in the video of Laxmi walking while camera facing a side of Laxmi
+- JsonAnalysis_MultiFace.html : Html version of JsonAnalysis_MultiFace.ipynb
+- JsonAnalysis_LaxmiFace.html : Html version of JsonAnalysis_LaxmiFace.ipynb
+- JsonAnalysis_LaxmiSide.html : Html version of JsonAnalysis_LaxmiSide.ipynb
 - FlutterAppMain.dart : main.dart file in a Flutter-Dart app for analysis and animation of key points of bodies
 - Audio2Pyttsx.ipynb : Python code for generating mp3 files from narration texts
 
 ## Links
 
 - Project Submission on Github: https://devpost.com/software/snapose
-- Project Video on YouTube: https://youtu.be/-9D6-XejIcA
+- Project Video on YouTube: https://youtu.be/08h7rQqhss8
 - Hackathon Information on Devpost: https://wos-ai.devpost.com
 - Hackathon Information on Qualcomm: https://www.qualcomm.com/developer/windows-on-snapdragon
 - Qualcomm AI Hub: https://app.aihub.qualcomm.com
@@ -34,4 +37,6 @@ We felt that physical therapists like our daughter Ruchi and their patients can 
 - OpenPose is available as a Windows executable .exe file. A simple one-line command-line code can process a video, detect key points of bodies of multiple people, and produce .json files, one file for each frame of the video. We used an example video of multiple people walking.
 - To avoid possible mix-up of coordinates of key points, we created and analyzed our own video of Laxmi walking, with the camera facing on her front.
 - To make it possible to analyze movements of arms with respect to feet, we created and analyzed our own video of Laxmi walking, with the camera facing on her side.
-- We wrote a Python code to analyze the .json files produced by OpenPose. Using Matplotlib package, we created animations of key points of a single person. We concluded that some more work will be needed to make sound and meaningful inferences regarding a person's walking.
+- We wrote a Python code to analyze the .json files from the multiple people video. We found that the selected person raises feet more than appropriate. Using Matplotlib package, we created an animation of key points of the selected person.
+- We tweaked the Python code to analyze the .json files from the video of Laxmi facing the camera. We found that Laxmi raises feet correctly.
+- We used the same Python code to analyze the .json files from the video with the camera on a side of Laxmi. Here also we found that Laxmi raises feet correctly.
