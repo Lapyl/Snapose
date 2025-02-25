@@ -19,11 +19,12 @@ This app can be useful for Gait Analysis for Physical Therapy.
 ## Links
 
 - Project Submission on Github: https://devpost.com/software/snapose
-- Project Video on YouTube: https://youtu.be/08h7rQqhss8
+- Project Video on YouTube: https://youtu.be/LbkK1GzB5f8
 - Hackathon Information on Devpost: https://wos-ai.devpost.com
 - Hackathon Information on Qualcomm: https://www.qualcomm.com/developer/windows-on-snapdragon
 - Qualcomm AI Hub: https://app.aihub.qualcomm.com
 - OpenPose Repository on GitHub: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+- Source of a background music: https://www.nasa.gov/wp-content/uploads/2024/05/carina-aug-3.wav
 
 ## Inspiration
 
